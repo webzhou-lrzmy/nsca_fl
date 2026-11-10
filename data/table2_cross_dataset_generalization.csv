@@ -1,0 +1,21 @@
+dataset,backbone,method,accuracy_mean,unit
+CIFAR-10,6-layer CNN,NSCA-FL (Ours),77.5,percent
+CIFAR-10,6-layer CNN,DnC,62.4,percent
+CIFAR-10,6-layer CNN,FedTOF,65.8,percent
+CIFAR-10,6-layer CNN,FedCut,67.2,percent
+CIFAR-10,6-layer CNN,"DP-FedAvg (clean, no attack)",79.5,percent
+CIFAR-10,ResNet-18,NSCA-FL (Ours),84.6,percent
+CIFAR-10,ResNet-18,DnC,71.3,percent
+CIFAR-10,ResNet-18,FedTOF,74.9,percent
+CIFAR-10,ResNet-18,FedCut,76.1,percent
+CIFAR-10,ResNet-18,"DP-FedAvg (clean, no attack)",86.9,percent
+CIFAR-100,ResNet-18,NSCA-FL (Ours),58.2,percent
+CIFAR-100,ResNet-18,DnC,44.6,percent
+CIFAR-100,ResNet-18,FedTOF,47.8,percent
+CIFAR-100,ResNet-18,FedCut,49.3,percent
+CIFAR-100,ResNet-18,"DP-FedAvg (clean, no attack)",61.4,percent
+FEMNIST,ResNet-18,NSCA-FL (Ours),80.4,percent
+FEMNIST,ResNet-18,DnC,71,percent
+FEMNIST,ResNet-18,FedTOF,72.9,percent
+FEMNIST,ResNet-18,FedCut,73.6,percent
+FEMNIST,ResNet-18,"DP-FedAvg (clean, no attack)",84.3,percent

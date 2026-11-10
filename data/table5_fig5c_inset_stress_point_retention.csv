@@ -1,0 +1,5 @@
+method,accuracy_at_stress_point,benign_update_retention,unit
+NSCA-FL (Ours),74.6,95,percent
+DnC,53.4,,percent
+Krum,30,42,percent
+RFA,39,52,percent

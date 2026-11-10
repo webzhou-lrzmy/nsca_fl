@@ -1,0 +1,26 @@
+configuration,attack,accuracy_mean,accuracy_std,unit
+Spectral-only + uniform avg.,label flipping,76.7,0.7,percent
+Spectral-only + uniform avg.,sign flipping,76.2,0.8,percent
+Spectral-only + uniform avg.,MPA (k=3),76.5,0.8,percent
+Spectral-only + uniform avg.,full-rank scattering,14.2,2.1,percent
+Spectral-only + uniform avg.,ALIE,76,0.9,percent
+Robust-only (median+MAD),label flipping,54.5,2.8,percent
+Robust-only (median+MAD),sign flipping,51.5,2.9,percent
+Robust-only (median+MAD),MPA (k=3),48.6,3.5,percent
+Robust-only (median+MAD),full-rank scattering,37.2,3.2,percent
+Robust-only (median+MAD),ALIE,47.5,3.8,percent
+Spectral + empirical bulk edge,label flipping,75.5,1,percent
+Spectral + empirical bulk edge,sign flipping,75,1.1,percent
+Spectral + empirical bulk edge,MPA (k=3),74.8,1.2,percent
+Spectral + empirical bulk edge,full-rank scattering,37,3,percent
+Spectral + empirical bulk edge,ALIE,74.5,1.3,percent
+NSCA-FL (full framework),label flipping,77.8,0.5,percent
+NSCA-FL (full framework),sign flipping,77.2,0.6,percent
+NSCA-FL (full framework),MPA (k=3),77.5,0.5,percent
+NSCA-FL (full framework),full-rank scattering,74.5,0.7,percent
+NSCA-FL (full framework),ALIE,77.4,0.5,percent
+"FedAvg (undefended, same epsilon)",label flipping,13,1.6,percent
+"FedAvg (undefended, same epsilon)",sign flipping,12.7,1.6,percent
+"FedAvg (undefended, same epsilon)",MPA (k=3),13.4,1.6,percent
+"FedAvg (undefended, same epsilon)",full-rank scattering,12.8,1.5,percent
+"FedAvg (undefended, same epsilon)",ALIE,12.8,1.6,percent

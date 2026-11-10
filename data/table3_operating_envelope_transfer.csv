@@ -1,0 +1,33 @@
+f_over_n,epsilon,method,accuracy_mean,unit,inside_formal_guarantees
+0.1,3,NSCA-FL (Ours),61,percent,yes
+0.1,3,DnC,47.5,percent,yes
+0.1,3,FedCut,52.1,percent,yes
+0.1,3,"DP-FedAvg (clean, no attack)",61.4,percent,yes
+0.2,3,NSCA-FL (Ours),59.4,percent,yes
+0.2,3,DnC,45.8,percent,yes
+0.2,3,FedCut,50.4,percent,yes
+0.2,3,"DP-FedAvg (clean, no attack)",61.4,percent,yes
+0.3,3,NSCA-FL (Ours),58.2,percent,yes
+0.3,3,DnC,44.6,percent,yes
+0.3,3,FedCut,49.3,percent,yes
+0.3,3,"DP-FedAvg (clean, no attack)",61.4,percent,yes
+0.4,3,NSCA-FL (Ours),54.9,percent,yes
+0.4,3,DnC,41,percent,yes
+0.4,3,FedCut,45.7,percent,yes
+0.4,3,"DP-FedAvg (clean, no attack)",61.4,percent,yes
+0.45,3,NSCA-FL (Ours),49.6,percent,no
+0.45,3,DnC,36.2,percent,no
+0.45,3,FedCut,40.8,percent,no
+0.45,3,"DP-FedAvg (clean, no attack)",61.4,percent,yes
+0.5,3,NSCA-FL (Ours),38.4,percent,no
+0.5,3,DnC,27.5,percent,no
+0.5,3,FedCut,31.2,percent,no
+0.5,3,"DP-FedAvg (clean, no attack)",61.4,percent,yes
+0.3,1,NSCA-FL (Ours),51.8,percent,yes
+0.3,1,DnC,39.1,percent,yes
+0.3,1,FedCut,43.6,percent,yes
+0.3,1,"DP-FedAvg (clean, no attack)",52.6,percent,yes
+0.3,8,NSCA-FL (Ours),60.9,percent,yes
+0.3,8,DnC,46.8,percent,yes
+0.3,8,FedCut,51.5,percent,yes
+0.3,8,"DP-FedAvg (clean, no attack)",61.6,percent,yes
